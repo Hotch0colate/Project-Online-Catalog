@@ -1,0 +1,33 @@
+<div class="d-flex flex-column column" style="min-height: 100vh">
+    <app-navbar></app-navbar>
+    <div class="row justify-content-sm-center align-items-center h-100">
+        <div class="col-6 mt-5">
+          <h1 class="fs-4 card-title fw-bold mb-4 text-center ">Checkout</h1>
+          <p class="fw-bold" class="row border-bottom border-secondary">
+              <span class="col">Product name</span>
+              <span class="col">Price</span>
+              <span class="col">Total</span>
+              <span class="col">Total price</span>
+          </p>
+          <p *ngFor="let item of cart" class="row">
+              <span class="col">{{item.product_name}}</span>
+              <span class="col">{{item.product_price}}</span>
+              <span class="col">{{item.total_product}}</span>
+              <span class="col">{{item.product_price*item.total_product}}</span>
+          </p>
+          <p class="fw-bold" class="row border-top border-secondary ">
+              <span class="col-6"></span>
+              <span class="col">Amont</span>
+              <span class="col">{{amont}}</span>
+          </p>
+          <div class="mt-5 text-center">
+            <button type="submit" class="btn btn-primary " (click)="onCheckOut()">
+              Checkout
+            </button>
+          </div>
+        </div>
+      </div>
+   
+  </div>
+
+
