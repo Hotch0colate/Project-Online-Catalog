@@ -1,6 +1,6 @@
 # Project-Online-Catalog
 Database and OOP Project
-
+<p>
 #install 
             frontend
     --------------------------
@@ -32,3 +32,4 @@ Database and OOP Project
 
     หากสำเร็จทุกขั้นตอนแล้ว สามารถเข้าได้ที่ http://localhost:4200/
 
+</p>
