@@ -1,5 +1,5 @@
 # Project-Online-Catalog
-Database and OOP Project
+For OOP(CSS222) and Database(CSS225)
 ```
 #install 
             frontend
